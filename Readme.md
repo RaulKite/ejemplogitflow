@@ -58,7 +58,11 @@ Change [ZSH_THEME="robbyrussell"] to [ZSH_THEME="agnoster"]
 ```bash
 ZSH_THEME="agnoster"
 ```
+### Cambiamos nuestra shell a zsh
+````
+chsh -s `which zsh`
 
+````
 #### Change theme colors to solarize
 
 ```dconf``` is required if you don't already have it.
